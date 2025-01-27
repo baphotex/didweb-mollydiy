@@ -13,7 +13,7 @@
       "id": "did:web:molly.diy#atproto",
       "type": "Multikey",
       "controller": "did:web:molly.diy",
-      "publicKeyMultibase": "zDnaeXZdYdKuztBgGVgxS3yGvubZ1o8mLwEGSko6Z1bwjDJME"
+      "publicKeyMultibase": "zDnaeX2RjkdxkzzKHUSyMKgnhkPHstKoBCvmjJnhMYpYgVqp9"
     }
   ],
   "service": [
