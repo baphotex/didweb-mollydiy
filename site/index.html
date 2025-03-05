@@ -1,20 +1,163 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Caddy on Railway</title>
-    <meta name="description" content="Choo Choo!" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="/styles.css?v=1.0" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>molly, but diy 🌸</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f5;
+            margin: 0;
+            padding: 0;
+        }
 
-  <body>
-    <main>
-      <h1>Caddy on Railway</h1>
-      <p>
-        Choo Choo! This is an example of a Caddy static site running on Railway.
-      </p>
-    </main>
-  </body>
+        header {
+            background-color: #ffb6c1;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px dotted #ffffff;
+        }
+
+        .blog-title {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3em;
+            color: #ffffff;
+            text-shadow: 2px 2px #ff69b4;
+        }
+
+        nav {
+            background-color: #ffd1dc;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #ff69b4;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+        }
+
+        .main-content {
+            flex: 3;
+            padding-right: 20px;
+        }
+
+        .sidebar {
+            flex: 1;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(255,105,180,0.1);
+        }
+
+        .blog-post {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(255,105,180,0.1);
+        }
+
+        .post-date {
+            color: #ff69b4;
+            font-size: 0.9em;
+        }
+
+        .read-more {
+            background-color: #ff69b4;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #ffb6c1;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            color: #ffffff;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid #ff69b4;
+            margin: 0 auto 20px;
+            display: block;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1 class="blog-title">molly, done herself 🌸</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Categories</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <article class="blog-post">
+                <h2>My Weekend Baking Adventure 🧁</h2>
+                <p class="post-date">March 15, 2024 | Baking, Lifestyle</p>
+                <p>This weekend I tried making these adorable unicorn cupcakes... ✨</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="blog-post">
+                <h2>Spring Fashion Favorites 🌸</h2>
+                <p class="post-date">March 12, 2024 | Fashion, Lifestyle</p>
+                <p>Discover my top picks for this season's pastel wardrobe...</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <img src="https://place-holder.com/150x150" alt="Profile Picture" class="profile-img">
+            <h3>About Me</h3>
+            <p>Hi! I'm Lily 🌸 A lover of all things cute, baking, and fashion!</p>
+            
+            <h3>Categories</h3>
+            <ul>
+                <li>✨ Lifestyle</li>
+                <li>🎀 Fashion</li>
+                <li>🧁 Baking</li>
+                <li>💕 DIY Crafts</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+        </div>
+        <p>© 2025 molly diy - All rights reserved</p>
+    </footer>
+</body>
 </html>
